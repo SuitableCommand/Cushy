@@ -1,0 +1,1 @@
+function cushy:storage/cushions/init

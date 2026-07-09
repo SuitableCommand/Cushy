@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_cushion"
+    },
+    "title": "Cushy",
+    "description": "Now that we are all sat down and settled, let's take a seat.",
+    "background": "minecraft:block/light_gray_wool"
+  },
+  "criteria": {
+    "sat_on_cushion": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "minecraft:entity_type": "minecraft:cushion"
+        }
+      }
+    }
+  }
+}

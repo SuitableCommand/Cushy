@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:baked_potato"
+    },
+    "title": "Couch Potato",
+    "description": "Eat a potato while sitting on a cushion",
+    "frame": "task"
+  },
+  "parent": "cushy:cushy/root",
+  "criteria": {
+    "eats_potato_on_couch": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:baked_potato",
+            "minecraft:potato",
+            "minecraft:poisonous_potato"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "eats_potato_on_couch"
+    ]
+  ]
+}

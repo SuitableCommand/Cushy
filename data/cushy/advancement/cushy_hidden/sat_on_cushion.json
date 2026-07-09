@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "sat_on_cushion": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "minecraft:entity_type": "minecraft:cushion"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cushy:advancement/reward/cushy_hidden/sat_on_cushion"
+  }
+}
