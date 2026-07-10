@@ -4,7 +4,7 @@
       "id": "minecraft:fishing_rod"
     },
     "title": "Never Gonna Get Me Up",
-    "description": "Use a fishing rod to pull an item closer to you while on a cushion",
+    "description": "Use a fishing rod to pull an item closer to you while sitting on a cushion",
     "frame": "task"
   },
   "parent": "cushy:cushy/root",

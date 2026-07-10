@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_wool"
+    },
+    "title": "Sitting On Cloud Nine",
+    "description": "Sit on a cushion on top of the world",
+    "frame": "challenge"
+  },
+  "parent": "cushy:cushy/couch_surfer",
+  "criteria": {
+    "cushion_top_of_world": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": {
+          "minecraft:vehicle": {
+            "minecraft:entity_type": "minecraft:cushion",
+            "minecraft:location": {
+              "position": {
+                "y": {
+                  "min": 320,
+                  "max": 500
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cushion_top_of_world"
+    ]
+  ]
+}

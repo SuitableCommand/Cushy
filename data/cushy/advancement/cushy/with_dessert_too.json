@@ -1,0 +1,78 @@
+{
+  "parent": "cushy:cushy/gonna_go_sit_around",
+  "criteria": {
+    "cookie": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:cookie"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "honey_bottle": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:honey_bottle"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "pumpkin_pie": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:pumpkin_pie"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "sweet_berries": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:sweet_berries"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "cake": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "cake"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": "Eat every sugary sweet in the game while sitting on a cushion",
+    "frame": "task",
+    "icon": {
+      "id": "minecraft:cookie"
+    },
+    "title": "With Dessert, Too"
+  },
+  "requirements": [
+    [
+      "cookie"
+    ],
+    [
+      "pumpkin_pie"
+    ],
+    [
+      "sweet_berries"
+    ],
+    [
+      "honey_bottle"
+    ],
+    [
+      "cake"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

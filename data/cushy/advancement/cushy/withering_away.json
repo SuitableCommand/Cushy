@@ -4,7 +4,7 @@
       "id": "minecraft:wither_rose"
     },
     "title": "You're Withering Away",
-    "description": "Get afflicted by the wither effect while on a cushion",
+    "description": "Get afflicted by the wither effect while sitting on a cushion",
     "frame": "task"
   },
   "parent": "cushy:cushy/cushioned_blow",

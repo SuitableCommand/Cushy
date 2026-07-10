@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bedrock"
+    },
+    "title": "Gonna Go And Dig Right Down",
+    "description": "Sit on a cushion at the bottom of the world",
+    "frame": "task"
+  },
+  "parent": "cushy:cushy/never_gonna_get_me_up",
+  "criteria": {
+    "cushion_top_of_world": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": {
+          "minecraft:vehicle": {
+            "minecraft:entity_type": "minecraft:cushion",
+            "minecraft:location": {
+              "position": {
+                "y": {
+                  "min": -64,
+                  "max": -63
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cushion_top_of_world"
+    ]
+  ]
+}
